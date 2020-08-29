@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.container{
+    display: flex;
+
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+
+    background-color: #FF5A00;
+}
+
+.searchInputContainer{
+    display: flex;
+
+    align-items: center;
+    margin-left: 40px;
+    background-color: #ffff;
+
+    width: 350px;
+    height: 30px;
+
+    border-radius: 5px;
+}
+
+.searchInputContainer svg{
+    font-size: 18pt;
+    margin: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.searchInput{
+    display: flex;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-indent: 10px;
+    height: 30px;
+    width: 270px;
+    font-size: 11pt;
+    border-radius: 5px;
+    cursor: text;
+    position: absolute;
+}
+
+.searchLinksContainer{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-right: 65px;
+}
+
+.searchLink{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15pt;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+.searchLinksContainer strong svg {
+    margin: auto;
+    margin-right: 10px;
+    font-size: 18pt;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
