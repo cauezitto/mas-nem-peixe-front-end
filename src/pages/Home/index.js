@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import SearchHeader from '../../components/SearchHeader'
 import Banner from '../../components/Banner'
 import CTA1 from '../../components/CTAhome'
-import Sobre from '../../components/SobreButton'
+import CTAbutton from '../../components/CTAbutton'
 
 
 import camisetas from '../../assets/camisetasCTA.png'
@@ -91,7 +91,7 @@ export default function Home() {
        <SearchHeader/>
        <Banner height = {300}/>
        <CTA1 items = {[camisetas, almofadas, canecas]} />
-       <Sobre />
+       <CTAbutton text = 'SOBRE NÓS' />
        
        <Divisor title = 'CAMISETAS' />
         <ProductsCardContainer>
@@ -102,6 +102,8 @@ export default function Home() {
             }
         </ProductsCardContainer>
 
+        <CTAbutton text = 'VEJA MAIS' />
+
         <Divisor title = 'CANECAS' />
         <ProductsCardContainer>
             {
@@ -110,6 +112,8 @@ export default function Home() {
                 ))
             }
         </ProductsCardContainer>
+
+        <CTAbutton text = 'VEJA MAIS' />
        </>
     )
 }

@@ -5,6 +5,4 @@ export const ProductsCardContainer = styled.div`
   width: 100vw;
 
   justify-content: center;
-
-  margin-bottom: 50px;
 `;
