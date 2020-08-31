@@ -11,6 +11,7 @@ import almofadas from '../../assets/almofadasCTA.png'
 import canecas from '../../assets/canecasCTA.png'
 import Divisor from '../../components/DivisorHeader'
 import ProductCard from '../../components/ProductCard'
+import Footer from '../../components/Footer'
 
 
 import {
@@ -114,6 +115,8 @@ export default function Home() {
         </ProductsCardContainer>
 
         <CTAbutton text = 'VEJA MAIS' />
+
+        <Footer/>
        </>
     )
 }
