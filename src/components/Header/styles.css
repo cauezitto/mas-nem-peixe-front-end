@@ -6,23 +6,39 @@
 
 .header{
     display: flex;
+    position: relative;
     
     height: 100px;
+}
+
+.menu{
+    font-size: 7rem;
+    position: absolute;
+
+    right: 50px;
+
+    align-self: center;
+
+    display: none;
 }
 
 .logoContainer{
     display: flex;
     position: absolute;
-    
-    height: 100%;
+    align-items: center;
+
     margin-left: 30px;
-    margin-top: 10px;
-    border-bottom: -10px;
+
+    height: 100%;
 }
 
 .logoContainer img{
     
-    height: 100px;
+    width: 80%;
+
+    margin: 8px;
+
+    align-self: center;
 }
 
 .linksContainer{
@@ -38,7 +54,7 @@
 
 .linksContainer strong{
     margin: auto;
-    font-size: 18pt;
+    font-size: 1.8rem;
     font-family: 'Ubuntu Condensed', sans-serif;
     cursor: pointer;
 }
@@ -47,6 +63,23 @@
     margin: auto;
     margin-right: 8px;
     color: #03989E;
-    font-size: 18pt;
+    font-size: 2.4rem;
     font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+@media(max-width: 925px){
+
+    .linksContainer strong{
+       display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+
+@media(max-width: 722px){
+
+    .searchInputContainer{
+        position: absolute;
+    }
 }

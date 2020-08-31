@@ -21,7 +21,7 @@ export const Container = styled.div`
 `;
 
 export const Column = styled.div`
-  width: 200px;
+  width: 16em;
   display: flex;
   flex-direction: column;
 

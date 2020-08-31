@@ -8,3 +8,28 @@
 ::-webkit-scrollbar {
     width: 5px;
   }
+
+html{
+    font-size: 62.5%;
+}
+
+html, body{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+@media(max-width: 1024px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 965px){
+    html{
+        font-size: 50%;
+    }
+}

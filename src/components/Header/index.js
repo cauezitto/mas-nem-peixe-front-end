@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../assets/logo.png'
 import './styles.css'
 import {FiMessageSquare, FiMenu, FiHeart, FiShoppingBag} from 'react-icons/fi'
+import {HiOutlineMenu} from 'react-icons/hi'
 
 function Header() {
   return (
@@ -32,6 +33,8 @@ function Header() {
             CARRINHO
           </strong>
         </div>
+
+        <HiOutlineMenu className = 'menu' />
       </header>
       
     </div>
