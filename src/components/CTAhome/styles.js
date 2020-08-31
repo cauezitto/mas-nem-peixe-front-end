@@ -2,20 +2,19 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100vw;
-  height: 250px;
+  min-height: 250px;
 
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)) ;
+  width: 100vw;
+  gap: 30px;
 
   margin-top: 30px;
-
-  overflow: auto;
 `;
 
 export const Item = styled.img`
-  height: 100%;
+  height: 250px;
+  width: 400px;
 
   margin: auto;
 

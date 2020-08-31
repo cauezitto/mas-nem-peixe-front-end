@@ -15,13 +15,14 @@ export const Container = styled.div`
 
   background: #03989E;
 
-  display: flex;
-
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+  width: 100vw;
+  gap: 30px;
 `;
 
 export const Column = styled.div`
-  width: 16em;
+  width: 200px;
   display: flex;
   flex-direction: column;
 
@@ -35,6 +36,8 @@ export const Column = styled.div`
     width: 100%;
     height: 30px;
     background: #fafafa;
+
+    margin-bottom: 30px;
 
     input{
         font-family: 'Ubuntu Condensed', sans-serif;
@@ -69,6 +72,11 @@ export const Title = styled.h3`
   margin-top: 20px;
   margin-bottom: 20px;
 
+  @media(max-width: 430px){
+    text-align: center;
+    text-indent: 0;
+  }
+
   ${props => props.centered  && centered}
 `
 
@@ -82,6 +90,11 @@ export const Text = styled.strong`
   text-align: left;
 
   margin-top: 5px;
+
+  @media(max-width: 430px){
+    text-align: center;
+    text-indent: 0;
+  }
 
   ${props => props.clickable && clickable}
 `

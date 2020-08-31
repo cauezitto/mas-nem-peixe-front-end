@@ -15,13 +15,18 @@ export const Container = styled.div`
   h1{
     color: #FF5A00;
     font-family: 'manjari', sans-serif;
-    width: 20%;
+    width: 30%;
     text-align: center;
+
+    @media(max-width: 430px){
+    width: 30%;
+    margin: auto;
+  }
   }
 `;
 
 export const Line = styled.div`
-  width: 35%;
+  width: 30%;
   height: 4px;
 
   background: #03989E;
@@ -29,4 +34,8 @@ export const Line = styled.div`
   margin: auto;
 
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media(max-width: 430px){
+    width: 20%;
+  }
 `
