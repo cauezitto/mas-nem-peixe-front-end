@@ -17,6 +17,7 @@ export const Container = styled.div`
     font-family: 'manjari', sans-serif;
     width: 30%;
     text-align: center;
+    font-size: 3rem;
 
     @media(max-width: 430px){
     width: 30%;
@@ -36,6 +37,6 @@ export const Line = styled.div`
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   @media(max-width: 430px){
-    width: 20%;
+    width: 21%;
   }
 `

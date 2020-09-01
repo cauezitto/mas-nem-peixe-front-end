@@ -23,7 +23,7 @@ export const Item = styled.img`
 
   cursor: pointer;
 
-  @media(max-width: 400px){
+  @media(max-width: 420px){
     height: auto;
     width: 90vw;
 

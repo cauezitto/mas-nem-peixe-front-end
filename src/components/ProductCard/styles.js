@@ -17,6 +17,10 @@ export const Container = styled.div`
       margin-top: 0;
       margin-bottom: 5px;
   }
+
+  @media(max-width: 520px){
+    width: 150px;
+  }
 `;
 
 export const ButtonsContainer = styled.div`
@@ -38,6 +42,10 @@ export const ButtonsContainer = styled.div`
 
   margin: auto;
 
+  @media(max-width: 520px){
+    width: 100%;
+  }
+
 
   button{
       background: none;
@@ -47,7 +55,7 @@ export const ButtonsContainer = styled.div`
       border: none;
 
       color: #fafafa;
-      font-size: 10pt;
+      font-size: 1.4rem;
 
       text-align: center;
       
@@ -59,9 +67,13 @@ export const ButtonsContainer = styled.div`
 
       height: 100%;
 
+      @media(max-width: 520px){
+        text-indent: 2px;
+  }
+
       svg{
           margin: auto;
-          font-size: 20px;
+          font-size: 2rem;
           text-align: center;
       }
 
@@ -82,7 +94,7 @@ export const Title = styled.h1`
 
 export const Price = styled.strong`
     font-family: 'Sunflower', sans-serif;
-    font-size: 21pt;
+    font-size: 2.8rem;
     color: #FF5A00;
 
     text-align: center;
@@ -93,7 +105,7 @@ export const Installments = styled.span`
     font-family: 'Sunflower', sans-serif;
     font-weight: bold;
     color: #AAAAAA;
-    font-size: 14pt;
+    font-size: 1.86rem;
 
     text-align: center;
 

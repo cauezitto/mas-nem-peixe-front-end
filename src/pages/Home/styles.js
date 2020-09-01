@@ -7,4 +7,8 @@ export const ProductsCardContainer = styled.div`
   gap: 30px;
 
   justify-content: center;
+
+  @media(max-width: 520px){
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)) ;
+  }
 `;
