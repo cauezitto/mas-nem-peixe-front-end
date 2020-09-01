@@ -25,6 +25,8 @@ export const Item = styled.img`
 
   cursor: pointer;
 
+  border-radius: 5px;
+
   @media(max-width: 420px){
     height: auto;
     width: 90%;
