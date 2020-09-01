@@ -77,7 +77,25 @@
 
 @media(max-width: 722px){
 
+    .container{
+        justify-content: center;
+    }
+
     .searchInputContainer{
-        position: absolute;
+        
+    }
+
+    .searchLinksContainer{
+        display: none;
     }
 }
+
+@media(max-width: 420px){
+
+    .searchInputContainer{
+        width: 90%;
+        margin: auto;
+        align-self: center;
+    }
+}
+

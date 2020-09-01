@@ -38,6 +38,7 @@ export const Column = styled.div`
     background: #fafafa;
 
     margin-bottom: 30px;
+    border-radius: 5px;
 
     input{
         font-family: 'Ubuntu Condensed', sans-serif;

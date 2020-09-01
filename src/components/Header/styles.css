@@ -12,7 +12,7 @@
 }
 
 .menu{
-    font-size: 7rem;
+    font-size: 6rem;
     position: absolute;
 
     right: 50px;
@@ -81,5 +81,17 @@
 
     .searchInputContainer{
         position: absolute;
+    }
+}
+
+@media(max-width: 420px){
+
+    .logoContainer img{
+    
+        width: 60%;
+    }
+
+    .menu{
+        font-size: ;
     }
 }

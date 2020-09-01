@@ -9,6 +9,9 @@ export const Container = styled.div`
   width: 100vw;
   gap: 30px;
 
+  margin: auto;
+  align-self: center;
+
   margin-top: 30px;
 `;
 
@@ -19,4 +22,13 @@ export const Item = styled.img`
   margin: auto;
 
   cursor: pointer;
+
+  @media(max-width: 400px){
+    height: auto;
+    width: 90vw;
+
+    margin: auto;
+
+    align-self: center;
+  }
 `
