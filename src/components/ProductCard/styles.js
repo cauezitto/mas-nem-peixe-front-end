@@ -11,14 +11,14 @@ export const Container = styled.div`
   flex-direction: column;
 
   img{
-      width: 100%;
+      width: 90%;
       height: auto;
       margin: auto;
       margin-top: 0;
       margin-bottom: 5px;
   }
 
-  @media(max-width: 520px){
+  @media(max-width: 600px){
     width: 150px;
   }
 `;

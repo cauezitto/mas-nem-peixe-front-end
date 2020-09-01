@@ -15,7 +15,7 @@
     font-size: 6rem;
     position: absolute;
 
-    right: 50px;
+    right: 5%;
 
     align-self: center;
 
@@ -27,7 +27,7 @@
     position: absolute;
     align-items: center;
 
-    margin-left: 30px;
+    margin-left: 5%;
 
     height: 100%;
 }

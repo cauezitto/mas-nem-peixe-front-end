@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 90%;
   min-height: 250px;
 
+  margin: auto;
+
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)) ;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)) ;
 
   gap: 30px;
 
@@ -17,8 +19,7 @@ export const Container = styled.div`
 `;
 
 export const Item = styled.img`
-  height: 250px;
-  width: 400px;
+  width: 100%;
 
   margin: auto;
 
