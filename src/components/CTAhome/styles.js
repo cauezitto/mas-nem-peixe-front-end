@@ -12,7 +12,7 @@ export const Container = styled.div`
   margin-top: 10px;
 
   @media(max-width: 400px){
-    grid-template-columns: repeat(auto-fit, minmax(80%, 1fr)) ;
+    grid-template-columns: repeat(auto-fit, minmax(90%, 1fr)) ;
   }
 `;
 
@@ -26,6 +26,6 @@ export const Item = styled.img`
 
   @media(max-width: 420px){
     height: auto;
-    width: 80%;
+    width: 90%;
   }
 `

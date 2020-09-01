@@ -97,5 +97,9 @@
         margin: auto;
         align-self: center;
     }
+
+    .searchInputContainer input{
+        position: relative;
+    }
 }
 
