@@ -13,4 +13,8 @@ export const ProductsCardContainer = styled.div`
   @media(max-width: 600px){
     grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)) ;
   }
+
+  @media(max-width: 400px){
+    width: 100vw;
+  }
 `;
